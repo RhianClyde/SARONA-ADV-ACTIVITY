@@ -60,5 +60,5 @@ img {
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid var(--natural-green);
+  border: 5px solid var(--natural-green);
 }

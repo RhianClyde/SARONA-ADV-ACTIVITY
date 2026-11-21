@@ -5,7 +5,9 @@ export default function Contact() {
   return (
     <div className="container">
       <h1>Contact Me</h1>
-      <p>Email: rhianclyde.sarona@hcdc.edu.ph</p>
+      <p>
+        <strong>Email: rhianclyde.sarona@hcdc.edu.ph</strong>
+      </p>
       <button onClick={() => router.back()}>Back</button>
     </div>
   );
