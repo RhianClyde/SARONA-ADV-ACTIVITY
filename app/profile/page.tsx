@@ -5,7 +5,7 @@ export default function Profile() {
   return (
     <div className="container">
       <h1>My Profile</h1>
-      <img src="/image.png" alt="My Profile" />
+      <img src="/pfp.png" alt="My Profile" />
       <p>
         <strong>Welcome to my profile!</strong>
       </p>

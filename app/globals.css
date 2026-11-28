@@ -15,14 +15,25 @@ body {
   color: var(--text-primary);
 }
 
+.bg-video {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+  border: 5px solid #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
 .container {
+  -webkit-text-stroke: 2px #000000;
+  color: #ffffff;
+  font-size: 2rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 15px;
-  background-color: var(--bg-color);
 }
 
 h1 {
@@ -38,6 +49,7 @@ button,
 .nav-button {
   background-color: var(--accent-pink);
   color: var(--text-primary);
+  font-size: inherit;
   padding: 10px 25px;
   border: none;
   border-radius: 8px;
